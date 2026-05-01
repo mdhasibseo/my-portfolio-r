@@ -289,10 +289,10 @@ export default function CircularSkills() {
         }
       `}</style>
 
-      <motion.div
+      <motion.div className=" bg-radial-[at_100%_0%] from-white via-black to-zinc-900 to-90%"
         style={{
           minHeight: "100vh",
-          background: "#0a0a0f",
+          
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
@@ -304,8 +304,8 @@ export default function CircularSkills() {
         }}
       >
         {/* Decorative rings */}
-        <div style={{ position: "absolute", width: 500, height: 500, borderRadius: "50%", border: "1px solid rgba(0,200,255,0.08)", top: "50%", left: "50%", transform: "translate(-50%,-50%)", pointerEvents: "none" }} />
-        <div style={{ position: "absolute", width: 340, height: 340, borderRadius: "50%", border: "1px solid rgba(0,200,255,0.05)", top: "50%", left: "50%", transform: "translate(-50%,-50%)", pointerEvents: "none" }} />
+        <div style={{ position: "absolute", width: 500, height: 500, borderRadius: "50%", border: "1px solid rgba(0,200,255,0.25)", top: "50%", left: "50%", transform: "translate(-50%,-50%)", pointerEvents: "none" }} />
+        <div style={{ position: "absolute", width: 340, height: 340, borderRadius: "50%", border: "1px solid rgba(0,200,255,0.18)", top: "50%", left: "50%", transform: "translate(-50%,-50%)", pointerEvents: "none" }} />
 
         {/* Section title */}
        <motion.h2
@@ -402,7 +402,7 @@ export default function CircularSkills() {
 
         {/* Legend */}
         <motion.div
-        initial={{ opacity: 0, y: 20, scale: 0.9, rotate: 5,translateY:50 , transition: { duration: 0.3 } }}
+        initial={{ opacity: 0, y: 20, scale: 0.9, rotate: 5,translateY:100 , transition: { duration: 0.3 } }}
         whileInView={{ opacity: 1, y: 0, scale: 1, rotate: 0, transition: { duration: 0.3 } }}
           style={{
             display: "grid",
