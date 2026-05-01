@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from './component/banner'
-import CircularSkills from './component/Skills'
+import Banner from './Component/Banner'
+import CircularSkills from './Component/Skills'
 
 
 const App = () => {
